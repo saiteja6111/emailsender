@@ -5,7 +5,7 @@ from pathlib import Path
 
 email = EmailMessage()
 
-text = Template(Path('/Users/ramsaiteja/Downloads/PYTHON PROGRAMS/pythonemail/new.html').read_text())
+text = Template(Path('your_file_path_new.html').read_text())
 
 
 
