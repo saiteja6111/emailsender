@@ -9,9 +9,9 @@ text = Template(Path('/Users/ramsaiteja/Downloads/PYTHON PROGRAMS/pythonemail/ne
 
 
 
-email['from'] = 'amanbhaaai'
+email['from'] = 'any_name'
 email['to'] = 'others_mail_id'
-email['subject'] = 'Aman bhaaaaai '
+email['subject'] = 'any_subject'
 email.set_content(text.substitute({'name' :'TinTin'}),'html')
 
 with smtplib.SMTP(host='smtp.gmail.com',port=587) as smtp:
